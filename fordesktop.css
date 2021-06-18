@@ -1,0 +1,36 @@
+@media screen and (min-width:1200px) {
+    body {
+    max-width: 1200px;
+    }
+    .nav-section {
+        margin-bottom: 0;
+        margin-left:-30px;
+        margin-top: 80px;
+        padding:0 200px;
+        width: 100vw;
+    }
+    .header-section {
+        padding:0 100px;
+        width: 100vw;
+    }
+    main {
+        width: 100vw;
+    }
+    .service-section {
+        padding: 0 200px;
+    }
+    .table-section {
+        padding: 0 200px;
+    }
+    .freetrial-section-item {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+    }
+    .recognized-section {
+        padding:100px 150px;
+    }
+    .recognized-section-img {
+        display: flex;
+    }
+}

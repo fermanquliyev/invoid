@@ -1,0 +1,47 @@
+@media screen and (min-width:768px) {
+    body {
+        max-width: 768px;
+    }
+    .nav-section a {
+        display: inline;
+        font-family: lato-b;
+        margin-left: 20px;
+        text-transform: uppercase;
+    }  
+    .header-section-link-block {
+        display: flex;
+    }
+    .container-image-block {
+        align-items: center;
+        display: flex;
+        padding-bottom: 60px;
+    }
+    .service-section-image-block {
+        display: grid;
+        grid-template-areas: 
+        "A B"
+        ". C";
+        grid-template-columns: 1fr 1fr;
+    }
+    .A {
+        grid-area: A;
+    }
+    .B {
+        grid-area: B;
+    }
+    .C {
+        grid-area: C;
+    }
+    .table-section {
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: 1fr 1fr; 
+    }
+    .freetrial-section-btn {
+        text-align:left;
+    }
+    .recognized-section-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

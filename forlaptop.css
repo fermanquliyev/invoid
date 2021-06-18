@@ -1,0 +1,47 @@
+@media screen and (min-width:1024px) {
+    body {
+        max-width: 1024px;
+    }
+    .nav-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-section a {
+        margin-left: 24px;
+    }
+    .header-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+    .header-section-image-block {
+       margin-right: 50px;
+       width: 32vw;
+    }
+    .service-section-image-block {
+        align-items: center;
+        display: flex;
+        padding: 0;
+    }
+    .table-section {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-section-text-block {
+        width: 24vw;
+    }
+    footer {
+        align-items: baseline;
+        display: flex;
+        justify-content: center;
+        padding: 0 70px;
+        width: 100vw;
+    }
+    .footer-section-text-block {
+        margin-left: -200px;
+    }
+    .footer-section-link-block {
+        padding: 0 80px;
+    }
+}
